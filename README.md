@@ -4,10 +4,10 @@
 
 <div>
   <p>
-  <img src="https://img.shields.io/badge/going%20to%20be%20a%20software%20engineer-ff00ff?style=flat&logoColor=white&color=161616" />
-</p>
+  going to be a software engineer.
+  </p>
   <p>
-  <img src="https://img.shields.io/badge/My%20code%20compiles%2C%20and%20that's%20character%20development.-ff00ff?style=flat&logoColor=white&color=161616" />
+  My code compiles, and that's character development.
 </p>
 </div>
 
@@ -31,5 +31,3 @@
 </div>
 
 </div>
-
-

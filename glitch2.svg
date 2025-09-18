@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 900 260"
+     role="img"
+     aria-label="Ali Raza"
+     preserveAspectRatio="xMidYMid meet"
+     width="100%" height="auto">
+  <title>Ali Raza — Glitch</title>
+
+  <style><![CDATA[
+    :root{
+      --bg: #161616;
+      --fg: #ffffff;
+      --cyan: #00ffff;
+      --magenta: #ff00ff;
+    }
+
+    svg { background: #161616; display:block; }
+
+    /* Make font size responsive to viewport height (bigger on phones) with safe min/max */
+    text {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      font-weight: 800;
+      /* clamp(min, preferred, max). preferred uses vh so phones get larger text */
+      font-size: clamp(98px, 2vh, 120px);
+      letter-spacing: 6px;
+      dominant-baseline: middle;
+      text-anchor: middle;
+      fill: #ffffff;
+    }
+
+    .layer-c { fill: #00ffff; opacity: 0.9; mix-blend-mode: screen; transform-origin: 50% 50%; animation: glitch 0.55s cubic-bezier(.2,.6,.4,1) infinite; }
+    .layer-m { fill: #ff00ff; opacity: 0.9; mix-blend-mode: screen; transform-origin: 50% 50%; animation: glitch 0.42s cubic-bezier(.2,.6,.4,1) infinite reverse; }
+
+    @keyframes glitch {
+      0%   { transform: translate(0,0) skewX(0deg); }
+      10%  { transform: translate(-8px,6px) skewX(-3deg); }
+      25%  { transform: translate(8px,-8px) skewX(2deg); }
+      40%  { transform: translate(-4px,6px) skewX(-1.5deg); }
+      60%  { transform: translate(4px,-3px) skewX(1.8deg); }
+      80%  { transform: translate(-2px,2px) skewX(-1deg); }
+      100% { transform: translate(0,0) skewX(0deg); }
+    }
+  ]]></style>
+
+  <!-- background rectangle -->
+  <rect width="100%" height="100%" fill="#161616"/>
+
+  <!-- central text group: main layer + two animated colored layers -->
+  <g transform="translate(450,130)">
+    <text x="0" y="0" fill="#ffffff" aria-hidden="true">Ali Raza</text>
+    <g class="layer-c" aria-hidden="true"><text x="0" y="0">Ali Raza</text></g>
+    <g class="layer-m" aria-hidden="true"><text x="0" y="0">Ali Raza</text></g>
+  </g>
+</svg>

@@ -1,11 +1,20 @@
-<div style="background: #161616; border: 2px solid #ff00ff;padding-bottom: 40px">
+<div align="center" style="background: #161616; border: 2px solid #ff00ff;padding-bottom: 40px">
 
 ![Ali Raza — glitch](./glitch2.svg)
 
-<div style="text-align: center; color:#ff00ff">
+<div>
+  <p>
+  <img src="https://img.shields.io/badge/going%20to%20be%20a%20software%20engineer-ff00ff?style=flat&logoColor=white&color=161616" />
+</p>
+  <p>
+  <img src="https://img.shields.io/badge/My%20code%20compiles%2C%20and%20that's%20character%20development.-ff00ff?style=flat&logoColor=white&color=161616" />
+</p>
+</div>
+
+<div style="color:#ff00ff">
   <p>going to be a software engineer.</p>
   <p>My code compiles, and that's character development.</p>
-</did>
+</div>
 
 <div style="
    display: flex;
@@ -18,7 +27,7 @@
 <img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GitHub" title="GitHub"/>
 <img src="https://skillicons.dev/icons?i=flutter" width="40" height="40" alt="Flutter" title="Flutter"/>
 
-<img src="https://skillicons.dev/icons?i=Supabase" width="40" height="40" alt="Supabase" title="Supabase"/>
+<img src="https://skillicons.dev/icons?i=supabase" width="40" height="40" alt="Supabase" title="Supabase"/>
 <img src="https://skillicons.dev/icons?i=postgresql" width="40" height="40" alt="PostgreSQL" title="PostgreSQL"/>
 
 <img src="https://skillicons.dev/icons?i=react" width="40" height="40" alt="react" title="react"/>
@@ -27,3 +36,4 @@
 </div>
 
 </div>
+

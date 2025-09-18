@@ -11,11 +11,6 @@
 </p>
 </div>
 
-<div style="color:#ff00ff">
-  <p>going to be a software engineer.</p>
-  <p>My code compiles, and that's character development.</p>
-</div>
-
 <div style="
    display: flex;
    gap: 10px;
@@ -36,4 +31,5 @@
 </div>
 
 </div>
+
 

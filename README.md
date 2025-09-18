@@ -4,10 +4,10 @@
 
 <div>
   <p>
-  <img src="https://img.shields.io/badge/going_to_be_a_software_engineer-ff00ff?style=flat&logoColor=white&color=161616" />
+  <img src="https://img.shields.io/badge/going%20to%20be%20a%20software%20engineer-ff00ff?style=flat&logoColor=white&color=161616" />
 </p>
   <p>
-  <img src="https://img.shields.io/badge/My_code_compiles,_and_that's_character_development.-ff00ff?style=flat&logoColor=white&color=161616" />
+  <img src="https://img.shields.io/badge/My%20code%20compiles%2C%20and%20that's%20character%20development.-ff00ff?style=flat&logoColor=white&color=161616" />
 </p>
 </div>
 
